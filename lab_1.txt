@@ -11,6 +11,7 @@ Accomplishments:
 
  Plans for next week:
  - Finish next weeks tasks (MQTT?)
+ - Finish project proposal covering our idea (game similar to hole in the wall)
 
 ###################################
 Task Notes (Problems and successes)
