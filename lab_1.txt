@@ -1,0 +1,23 @@
+Chester Hulse
+10/9/2020
+Week 1 Report
+
+Plans for this week:
+ - I planned to finish this weeks tasks.
+ - I planned for hardware to get here.
+
+Accomplishments:
+ - Finished all tasks (see notes below)
+
+ Plans for next week:
+ - Finish next weeks tasks (MQTT?)
+
+###################################
+Task Notes (Problems and successes)
+###################################
+
+This week was pretty straightforward. I have set up many raspberry PIs so I already knew the process.
+The hardest part was cloning git and that was just following steps and it worked on the first try.
+I was also really worried my raspberry pi wouldn't get here but it arrived today (Friday).
+I would have loved to try out the camera stuff on the PI but I don't have a webcam and all of
+the electronic stores near me are sold out on webcams.
