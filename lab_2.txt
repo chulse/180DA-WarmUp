@@ -1,0 +1,39 @@
+Chester Hulse
+10/9/2020
+Week 1 Report
+
+Plans for this week:
+ - Finish project proposal
+ - Install berryconda on PI
+ - Run simple TCP/IP tutorials on PI
+ - Get MQTT publisher/subscriber working on PI
+
+Accomplishments:
+ - Finished projet proposal
+ - Finished all tasks (see notes below)
+
+ Plans for next week:
+ - Finish next weeks tasks
+ - Start working on project to stay on schedule
+
+###################################
+Task Notes (Problems and successes)
+###################################
+
+Installing berryconda was pretty simple.
+ - One caveat is I will need to reinstall it when my RPI Zero WH gets here
+ - Right now I'm using an RPI3 which has a different ARM processor
+
+
+TCP/IP Example:
+ - We decided to scrap it and prioritize project planning.
+ - If needed later should be very simple to do on our own
+
+ MQTT Example:
+ - Added code to be a publisher and subscriber at the same time.
+ - Ran both in separate terminals and was able to see floats be transmitted.
+
+ Project review:
+ - TAs wanted better integration of IMU gestures
+ - Personally I think that gesture controls contradict seemless UI, they won't be intuitive
+ - We wrote some plans on using it as a remote controll in addition to obtaining powerups
