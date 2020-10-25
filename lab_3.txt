@@ -53,9 +53,15 @@ Building "Gesture" classifier:
     - A forward push is very similar
     - I just need to window a sample for a couple seconds and check if the magnitude
       of the forces works out.
- - This ended up being pretty straightforward. My sample data and code is provided in
-   my github.
+ - This is actually really annoying. I spent 3 hours debugging my IMU accelerometer values
+   but it is not giving me consistent data. I've worked with accelerometers before
+   but for some reason this one is just terrible. Taking a break and working on speech
+   recognition.
 
 Speech recognition:
+ - Having just as many problems with this. When I try to install pyAudio I get a lot of errors in pip/Conda.
+   I have installed all package dependencies and it still won't properly run an example.
+ - Errors can be seen in pyAudio errors.png, but I've googled them and tried all the fixes and still nothing works.
+ - I'm wondering if my computer is somehow not letting the microphone be accessed from command line.
 
 
