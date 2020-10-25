@@ -1,0 +1,61 @@
+Chester Hulse
+10/23/2020
+Week 3 Report
+
+Plans for this week:
+ - Get Raspberry PI Zero Finally
+ - Update all PI software to work on new hardware
+ - Solder IMU and get it talking with the zero
+ - Complete IMU tutorial
+ - Start working on speech recognition for our project
+
+Accomplishments:
+ - Soldered IMU
+ - Got PI Zero connected over wifi and ssh-able
+
+ Plans for next week:
+ - 
+
+###################################
+Task Notes (Problems and successes)
+###################################
+
+Getting the PI Zero to connect to and ssh over wifi was a pain
+ - My old PI was cached on the hostname of raspberrypi even when disconnected
+ - My new PI I needed to know the IP and network information without any of the
+   connectors (I don't have the HDMI port or a way to plug mouse and keyboard in)
+ - I ended up logging into my spectrum account and pulling the IP off my network
+   gateway admin page.
+ - Now that its connected I reinstalled a different version of Berryconda
+    - This was also a bit of a hassle but not difficult just time consuming.
+
+Succesfully soldered headers onto the IMU.
+ - Shipping took way too long so I'm just going to use headers and a jumper cable
+ - I didn't want to wait another month for shipping of the QWIIK cable.
+ - Now that I soldered it, connecting and communicating with it was a breeze
+
+Using the IMU:
+ - Setting up all this i2c stuff was just lots of waiting for installs.
+ - Once it was all set up I tried to run it and it said I'm missing smbus
+    - I had to go back and redo all these steps which already took 30-60minutes
+    - After redoing this it still gave me the same error
+    - I realized I needed python2 not python3 and then the example worked and provided data
+    - I also realized I could change dependencies to use smbus2 and then got it working
+      on python3
+
+
+Building "Gesture" classifier:
+ - For more complex gestures I will definitely need some kind of machine learning
+ - This task requires differentiating between forward push and upward lift
+ - I can do this without a machine leraning algorithm (which I always prefer)
+    - If I assume I always hold the IMU a certain way (which is fair and doable)
+    - An upward push is just a consistent positive acceleration in one direction
+    - A forward push is very similar
+    - I just need to window a sample for a couple seconds and check if the magnitude
+      of the forces works out.
+ - This ended up being pretty straightforward. My sample data and code is provided in
+   my github.
+
+Speech recognition:
+
+
