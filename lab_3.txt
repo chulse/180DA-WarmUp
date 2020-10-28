@@ -64,4 +64,5 @@ Speech recognition:
  - Errors can be seen in pyAudio errors.png, but I've googled them and tried all the fixes and still nothing works.
  - I'm wondering if my computer is somehow not letting the microphone be accessed from command line.
 
+Resuming work, trying to do gesture recognition:
 
