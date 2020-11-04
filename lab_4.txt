@@ -1,0 +1,43 @@
+Chester Hulse
+11/3/2020
+Week 4 Report
+
+Plans for this week:
+ - Clean large files out of git
+ - Get speech and gesture recognition working
+ - Apply speech to an object oriented command system for our game
+ - Work on project presentation
+
+Accomplishments:
+ - Cleaned large files out of git
+ - All tutorials for this class are finished
+ - Created a very clean and easy to use/modify interface for voice commands
+   - This includes a very easy callback(), keyword class
+   - To create a voice command simply construct the class with the desired keyword and callback function.
+ - Merged PR for said voice class to git
+
+ Plans for next week:
+ - Finalize presentation for our project
+
+###################################
+Task Notes (Problems and successes)
+###################################
+
+Cleaning git:
+ - This was very straightforward, we just added large file types to gitignore
+ - We also added a commit to delete them from our repository
+
+Getting the PI Zero to recognize gestures was finished:
+ - Pretty basic classifier without machine learning
+ - This took a long time but will be much more reliable and thorough when actually used in my project
+
+Succesfully recognized speech
+ - Implemented in an easy to use interface for my teammates
+ - Might eventually change the recognizer for better latency/performance
+   - This is easy to change later, for now this is good enough for a prototype
+
+Working on group presentation:
+ - Started work on this
+ - Ran out of time with midterms this week, will continue next week
+ - Next week we will hopefully have lots more pictures and samples of working features as well
+

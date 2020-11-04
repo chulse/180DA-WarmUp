@@ -300,9 +300,9 @@ while True:
     # if 1:                       #Change to '0' to stop  showing the angles from the Kalman filter
     #     outputString +="# kalmanX %5.2f   kalmanY %5.2f #" % (kalmanX,kalmanY)
 
-    if (ACCz - oldACCz > 500):
+    if (ACCz - oldACCz > 1000):
         outputString += "Upward gesture, Acc Diff = %5.2f\n" % (ACCz - oldACCz)
-    if (ACCx - oldACCx > 500):
+    if (ACCx - oldACCx > 1000):
         outputString += "Forward gesture, Acc Diff = %5.2f\n" % (ACCx - oldACCx)
     
     oldACCz = ACCz

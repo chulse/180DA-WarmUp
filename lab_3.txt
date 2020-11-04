@@ -65,4 +65,12 @@ Speech recognition:
  - I'm wondering if my computer is somehow not letting the microphone be accessed from command line.
 
 Resuming work, trying to do gesture recognition:
+ - Gyro seemed much more consistent today, not sure what changed
+ - Made a simple binary classifier to determine gestures based on magnitude of acceleration
+ - Obviously not reliable enough, for something in my project I'll investigate neural networks
+ - This is good enough for now, demonstrates understanding of the IMU
 
+
+Resuming Speech recognition:
+ - Library still has lots of problems in the installation process, not sure why.
+ - I'm missing C++ files/dlls but installing those through Microsoft doesn't help....?
