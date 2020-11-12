@@ -1,0 +1,34 @@
+Chester Hulse
+11/5/2020
+Week 5 Report
+
+Plans for this week:
+ - Finalize presentation
+ - Start combining pieces of code into a game
+
+Accomplishments:
+ - Recorded lots of sampling data with google voice for presentation
+ - Recorded a sample video of voice recognition, again for presentatoin
+ - Worked on background slides and voice recognition slide
+ - Finalized presentation, ready for other contributions from teammates and practicing on Thursday.
+ - Began looking through group member code to get a sense of integration requirements.
+
+ Plans for next week:
+ - Practice presentaiton with teammates.
+ - Present project to class.
+ - Work more on integrating game with eachother's work.
+
+###################################
+Task Notes (Problems and successes)
+###################################
+
+Presentation:
+ - Recording voice feedback took a long time but hopefully allows for a good comparison
+ - Saying "activate" or "help" 100s of times was the easiest way I could think of this
+   - Later we will probably want these metrics including my teammates voices to make sure its not overfit to me
+ - Typical slide work, nothing too hard just lots of time to put together something that looks nice.
+
+Project integration:
+ - Didn't get super far on this, just looked trhough some teammate code
+ - Teammates code looks nice and modular/object oriented.
+ - Hopefully this means integration will be easy in the coming weeks.
