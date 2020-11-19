@@ -1,0 +1,33 @@
+Chester Hulse
+11/12/2020
+Week 6 Report
+
+Plans for this week:
+ - Finalize presentation
+ - Integrate project
+
+Accomplishments:
+ - Finalized presentation
+    - After feedback from Thursday presentations, we added a lot of improvements
+    - Numbers, tables, charts, concrete video evidence of working code
+    - practiced many times to get it under the time limit, there were a lot of slides
+ - Didn't get to integration steps yet
+
+ Plans for next week:
+ - Implement MQTT for our gestures and server communication
+ - Integrate project more if there is time, but MQTT comes first so gestures will work
+
+###################################
+Task Notes (Problems and successes)
+###################################
+
+Presentation:
+ - We put a lot of effort into gathering presentable data and information for our slides
+ - Presenting took a long time, we started at 20 minutes
+ - Through lots of trimming and practice we brought it down to exactly 14 minutes
+ - On the day of this went smoothly
+
+ Integration:
+  - Realized we still need MQTT communication to get gestures into our game from our RPI
+  - Prioritizing this next week over integration.
+
