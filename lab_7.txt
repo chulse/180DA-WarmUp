@@ -1,0 +1,24 @@
+Chester Hulse
+11/19/2020
+Week 7 Report
+
+Plans for this week:
+ - Implement MQTT for our gestures and server communication
+ - Integrate project more if there is time, but MQTT comes first so gestures will work
+
+Accomplishments:
+ - MQTT working perfectly between gestures and microphone events
+ - Created modularized code useful for our game to make easy integration
+
+ Plans for next week:
+ - Integrate all the pieces of our project into a demo!
+
+###################################
+Task Notes (Problems and successes)
+###################################
+
+MQTT:
+ - took code from the tutorial we worked on earlier
+ - Tested with many values and all of our PI's working together.
+ - Created a class based version such that it can be used with all the other pieces of our project
+ - Short week because we have thanksgiving, but we are still on track to finish demo on time!
