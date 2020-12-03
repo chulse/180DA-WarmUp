@@ -1,0 +1,23 @@
+Chester Hulse
+11/26/2020
+Week 8 Report
+
+Plans for this week:
+ - Integrate all the pieces of our project into a demo!
+
+Accomplishments:
+ - Started working to integrate MQTT with gesture sensor
+ - Actual merge will be done when we finalize interface for (hopefully) a smooth transition to multiplayer
+
+ Plans for next week:
+ - Continue planning MQTT interface and integrating that into the rest of our game
+
+###################################
+Task Notes (Problems and successes)
+###################################
+
+Integration:
+ - Short week because of thanksgiving
+ - Got MQTT running on the PI while detection gestures
+ - Really easy to send strings representing the gestures and any username with JSON
+ - We just have to make sure however we format this data it will be useful later
