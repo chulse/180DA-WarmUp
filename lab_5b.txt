@@ -1,0 +1,27 @@
+Chester Hulse
+02/04/2021
+Week 5 Report
+
+Plans for this week:
+ - Finish report/multiplayer project
+ - Practice presentation
+
+Accomplishments:
+ - Completely finished multiplayer/worked out bugs
+ - Finished presentation
+ - Practiced presentation
+ - Created setup script for game
+
+ Plans for next week:
+  - Implement power ups and voice commands
+
+
+
+###################################
+Task Notes (Problems and successes)
+###################################
+
+After working countless hours ironing out all the bugs in our multiplayer code it all works very smoothly now
+Presentation was pretty straightforward by now, we've done it 3 times after all
+We found a new way to make the setup script but STILL have problems with PyAudio even after using Zefyr's workaround...
+ - Hopefully this isn't a huge deal, every team should already have PyAudio installed anyways.

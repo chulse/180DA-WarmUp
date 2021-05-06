@@ -1,0 +1,31 @@
+Chester Hulse
+01/13/2021
+Week 2 Report
+
+Plans for this week:
+ - Finish improving voice recognition
+ - Work on server/cloud computing to replace MQTT and increase our networking capabilites
+
+Accomplishments:
+ - Tried to download pocketsphinx, a supposedly better voice recognizer
+ - Many issues with building the wheel and getting this set up properly
+ - Decided to give up and add a few small tweaks to google's recognizer before, this shouldn't take priority.
+ - Decided to prioritize networking, worked to add room codes to our MQTT interface.
+ - Got basic installation of game from scratch running on my PC, will eventually write up installation script/docs.
+
+ Plans for next week:
+ - Will work with Shalin to get networking up and running, including room creation.
+ - Multiplayer should take top priority for us right now, we will be focusing on this.
+
+
+
+###################################
+Task Notes (Problems and successes)
+###################################
+
+Voice recognition libraries were a huge pain,
+none of them seem to be installing,
+something is wrong with python/pip on my computer I guess
+
+Created a separate git branch for voice and networking improvements
+Added a short commit to both of those, not quite ready for a PR because neither are feature complete yet

@@ -1,0 +1,27 @@
+Chester Hulse
+02/11/2021
+Week 6 Report
+
+Plans for this week:
+  - Implement power ups and voice commands
+
+Accomplishments:
+ - Redesigned game logic to prioritize user interface in terms of latency
+ - Voice commands will now be controlling menu options
+ - gestures will be made by the creator of the pose and the people copy it will have to deal with sabotage
+    - for example, a "wave" gesture when creating a pose could mirror everyones screens when copying it
+
+ Plans for next week:
+  - Implement power ups and voice commands
+
+
+
+###################################
+Task Notes (Problems and successes)
+###################################
+Lots of discussion on how to make voice commands intuitive with higher latency.
+Settled on what is detailed in accomplishments.
+Reworked voice commands to control menu options but with incoming pygame changes this might need redoing.
+ - Because of the easy function callback setup this will not be hard to change.
+Handed off our project to team 2 for testing (and they gave theirs to us).
+ - Plan to meet and test collaboratively on Saturday.

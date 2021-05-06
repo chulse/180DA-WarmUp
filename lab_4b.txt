@@ -1,0 +1,27 @@
+Chester Hulse
+01/29/2021
+Week 4 Report
+
+Plans for this week:
+ - Will work with Shalin to get networking up and running, including room creation.
+ - Multiplayer should take top priority for us right now, we will be focusing on this.
+
+Accomplishments:
+ - Finished the state machine for multiplayer
+ - Rounds and turns are all working perfectly
+ - Now we need the actual poses/contour function to work and to add single player power ups to the game
+ 
+ Plans for next week:
+  - Finish report/project and practice presentation
+
+
+
+###################################
+Task Notes (Problems and successes)
+###################################
+
+States and variable names for multiplayer was really complex.
+We spent 20 hours this week just debugging and rewriting state machines until they worked.
+We decided to have a "master" creater and every other client take commands from him to allow game to flow
+THis has the downside of if a creator leaves everything breaks (but can be fixed in the future.)
+We still need to finish the basic game over the weekend, this multiplayer integration took much longer than expected.

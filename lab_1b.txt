@@ -1,0 +1,25 @@
+Chester Hulse
+01/08/2021
+Week 1 Report
+
+Plans for this week:
+ - Plan for this quarter, including features and enhancements.
+ - We foudn good planning realy helped last quarter, so really focus and nail down most points now.
+
+Accomplishments:
+ - Planned out the quarter with a timeline and possible features
+ - Segmented work among all of ups
+ - Started investigating new voice recognition methods for better user experience
+
+ Plans for next week:
+ - Finish improving voice recognition
+ - Work on server/cloud computing to replace MQTT and increase our networking capabilites
+
+###################################
+Task Notes (Problems and successes)
+###################################
+
+Mostly written down in our project report.
+
+There seem to be many voice recognition libraries I just need to
+pick one with a long enough free trial to last the quarter.

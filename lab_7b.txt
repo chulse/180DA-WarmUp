@@ -1,0 +1,25 @@
+Chester Hulse
+02/18/2021
+Week 7 Report
+
+Plans for this week:
+  - Implement power ups and voice commands
+
+Accomplishments:
+ - Powerups and voice menu integration fully done
+ - began taking feedback from Team 2 and fixing their bugs
+
+ Plans for next week:
+ - fix bugs for peer testing
+
+
+###################################
+Task Notes (Problems and successes)
+###################################
+Problems with directory accessing in mac
+ - fixed
+Problems with opencv on other computers
+ - specified a specific version, maybe fixed?
+ Powerups all work
+ Voice menu integration works
+Still have crashing issues on a mac, none of us have macs so its hard to debug with this.

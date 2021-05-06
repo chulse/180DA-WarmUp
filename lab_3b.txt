@@ -1,0 +1,34 @@
+Chester Hulse
+01/20/2021
+Week 3 Report
+
+Plans for this week:
+ - Will work with Shalin to get networking up and running, including room creation.
+ - Multiplayer should take top priority for us right now, we will be focusing on this.
+
+
+
+ - Finish improving voice recognition
+ - Work on server/cloud computing to replace MQTT and increase our networking capabilites
+
+Accomplishments:
+ - Planned some voice recognition words that could be recognized without "soft sounds" to improve reliability.
+
+ - Got the basis of an AWS bucket multiplayer working.
+ - Will work more on Friday (but probably turn this in before then so I don't forget)
+ - Spent 2 hours planning out our entire network architecture with a creator controlling the games pace
+ Plans for next week:
+
+
+
+###################################
+Task Notes (Problems and successes)
+###################################
+
+Voice recognition will focus on removing friccatives for now.
+We will polish this later, multiplayer architecture takes priority.
+
+Thoroughly planned out multiplayer architecture and worked together to implement it with all aspects of our game.
+Most multiplayer data will be push based on MQTT, but some data will be stored related to room creation on AWS.
+Only the creator of the room can modify the data on AWS to prevent race conditions.
+ - He will also be the one to control the pace of the game, making sure other users know when to send or receive poses/powerups/gestures/scores.
